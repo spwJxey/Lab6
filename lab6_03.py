@@ -1,5 +1,8 @@
 import lab6_01 as test
 def is_leapyear(year):
+  """
+  Checks if year is a leapyear given a numeric value, if value none numeric returns false
+  """
   test_year = test.is_numeric(year)
   if (test_year == False):
     return False
